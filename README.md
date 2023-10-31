@@ -11,6 +11,10 @@ RTNThreedRenderer is a React Native library for rendering glTF models on Android
 
 RTNThreedRenderer currently supports glb models for android and usdz models for iOS. It's essential to provide the filename with its extension, as the library caches the file upon the initial download. If you update the URL, make sure to also update the 'fileNameWithExtension' prop accordingly.
 
+## IMP Note
+
+This library supports New Architecture only. Refer [how to enable new architecture in react native over here](https://reactnative.dev/docs/next/the-new-architecture/use-app-template)
+
 ### Installation
 
 ```

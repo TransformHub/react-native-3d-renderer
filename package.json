@@ -1,6 +1,6 @@
 {
   "name": "rtn-threed-renderer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Renders a 3d model",
   "react-native": "js/index",
   "source": "js/index",
@@ -20,13 +20,13 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/<your_github_handle>/rtn-centered-text",
-  "author": "<Your Name> <your_email@your_provider.com> (https://github.com/<your_github_handle>)",
+  "repository": "https://github.com/TransformHub/react-native-3d-renderer",
+  "author": "TransformHub <nilesh.kanawade@transformhub.com> (https://github.com/TransformHub)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/<your_github_handle>/rtn-centered-text/issues"
+    "url": "https://github.com/TransformHub/react-native-3d-renderer/issues"
   },
-  "homepage": "https://github.com/<your_github_handle>/rtn-centered-text#readme",
+  "homepage": "https://github.com/TransformHub/react-native-3d-renderer#readme",
   "devDependencies": {},
   "peerDependencies": {
     "react": "*",
