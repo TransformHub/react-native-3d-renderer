@@ -73,7 +73,10 @@ yarn add rtn-threed-renderer
 Open your ios porject in xcode. Go to general tab and scroll down to Frameworks, Libraries and Embedded content
 Add `ModelIO.framework` and `SceneKit.framework`
 
-2. To use, import the lib
+2. Update your pods, cd to ios directory in terminal
+   `RCT_NEW_ARCH_ENABLED=1 bundle exec pod install`
+
+3. To use, import the lib
    `import RTNThreedRenderer from 'rtn-threed-renderer/js/RTNThreedRendererNativeComponent';`
 
    ```
