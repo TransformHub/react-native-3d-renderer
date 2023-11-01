@@ -18,9 +18,9 @@ This library supports New Architecture only. Refer [how to enable new architectu
 ### Installation
 
 ```
-npm i rtn-threed-renderer
+npm i rtn-3d-renderer
 # or
-yarn add rtn-threed-renderer
+yarn add rtn-3d-renderer
 ```
 
 ## Android:

@@ -1,5 +1,5 @@
 {
-  "name": "rtn-threed-renderer",
+  "name": "rtn-3d-renderer",
   "version": "0.0.2",
   "description": "Renders a 3d model",
   "react-native": "js/index",
