@@ -1,15 +1,15 @@
-# RTNThreedRenderer
+# React Native 3d renderer
 
-RTNThreedRenderer is a React Native library for rendering glTF models on Android. This library provides a simple way to incorporate 3D models into your React Native applications, allowing you to enhance user experiences with 3D graphics.
+RTN3dRenderer is a React Native library for rendering glTF models on Android. This library provides a simple way to incorporate 3D models into your React Native applications, allowing you to enhance user experiences with 3D graphics.
 
 ## Features
 
-- Render glTF 2.0 models in your React Native application.
+- Render glTF 2.0 models for android and usdz models for iOS in your React Native application.
 - Support for textures, animations, and more.
 
 ## Getting Started
 
-RTNThreedRenderer currently supports glb models for android and usdz models for iOS. It's essential to provide the filename with its extension, as the library caches the file upon the initial download. If you update the URL, make sure to also update the 'fileNameWithExtension' prop accordingly.
+RTN3dRenderer currently supports glb models for android and usdz models for iOS. It's essential to provide the filename with its extension, as the library caches the file upon the initial download. If you update the URL, make sure to also update the 'fileNameWithExtension' prop accordingly.
 
 ## IMP Note
 
@@ -55,7 +55,7 @@ yarn add rtn-3d-renderer
    ```
 
 2. To use, import the lib
-   `import RTNThreedRenderer from 'rtn-threed-renderer/js/RTNThreedRendererNativeComponent';`
+   `import RTNThreedRenderer from 'rtn-3d-renderer/js/RTNThreedRendererNativeComponent';';`
 
    ```
    <RTNThreedRenderer
@@ -77,7 +77,7 @@ Add `ModelIO.framework` and `SceneKit.framework`
    `RCT_NEW_ARCH_ENABLED=1 bundle exec pod install`
 
 3. To use, import the lib
-   `import RTNThreedRenderer from 'rtn-threed-renderer/js/RTNThreedRendererNativeComponent';`
+   `import RTNThreedRenderer from 'rtn-3d-renderer/js/RTNThreedRendererNativeComponent';';`
 
    ```
    <RTNThreedRenderer
